@@ -5,8 +5,17 @@ gem 'rails', '3.2.22.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+# gem 'sqlite3'
 
+gem 'mysql2', '~> 0.3.20'
+gem 'mongoid'
+gem 'bson_ext'
+gem 'couchbase'
+gem 'cequel'
+
+gem 'passenger'
+
+gem 'test-unit', '~> 3.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
