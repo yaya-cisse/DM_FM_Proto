@@ -8,10 +8,24 @@ gem 'rails', '3.2.22.1'
 # gem 'sqlite3'
 
 gem 'mysql2', '~> 0.3.20'
+
 gem 'mongoid'
 gem 'bson_ext'
+
 gem 'couchbase'
+gem 'couchbase-model'
+
 gem 'cequel'
+
+gem 'ruby-prof'
+gem 'rails-perftest'
+
+# redis client
+gem 'hiredis'
+gem "redis", ">= 2.2.0", :require => ["redis", "redis/connection/hiredis"]
+gem 'redis-store'
+gem 'redis-activesupport'
+gem 'redlock'
 
 gem 'passenger'
 

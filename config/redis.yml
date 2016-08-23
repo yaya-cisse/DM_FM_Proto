@@ -1,0 +1,13 @@
+default: &DEFAULT
+  host: 127.0.0.1
+#  host: 172.16.1.106
+  port: 6379
+  namespace: morpheus_manager
+
+production: *DEFAULT
+development: *DEFAULT
+test:
+  host: 127.0.0.1
+#  host: 172.16.1.106
+  port: 6379
+  namespace: morpheus_manager_test
